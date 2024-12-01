@@ -1,4 +1,5 @@
 import InventoryList from './components/InventoryList';
+import './App.css';
 
 const App = () => {
     return (

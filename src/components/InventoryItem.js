@@ -1,3 +1,4 @@
+import '../css/InventoryItem.css';
 const InventoryItem = ({ sku, name, qty, price }) => {
     return (
         <div className="inventory-item">

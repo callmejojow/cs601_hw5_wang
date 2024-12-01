@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import InventoryItem from './InventoryItem';
 import inventoryData from '../data/inventory.json';
+import '../css/InventoryList.css';
 
 const InventoryList = () => {
     const [inventory, setInventory] = useState([]);
@@ -10,7 +11,7 @@ const InventoryList = () => {
     }, []);
 
     return (
-        <div className="inventory-list">
+        <div className="inventory-grid">
             {inventory.map((item) => (
                 <InventoryItem key={item.sku} {...item} />
             ))}
