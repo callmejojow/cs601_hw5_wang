@@ -13,7 +13,7 @@ const InventoryList = () => {
     return (
         <div className="inventory-grid">
             {inventory.map((item) => (
-                <InventoryItem key={item.sku} {...item} />
+                <InventoryItem key={item.sku} item={item} />
             ))}
         </div>
     );

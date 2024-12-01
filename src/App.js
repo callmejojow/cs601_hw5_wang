@@ -1,4 +1,6 @@
+import { Routes, Route } from 'react-router-dom';
 import InventoryList from './components/InventoryList';
+import ProductDetail from './components/ProductDetail';
 import logo from './assets/logo.png';
 import './App.css';
 
@@ -7,13 +9,16 @@ const App = () => {
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="Store logo" />
-                <h1>Store Inventory Manager</h1>
+                <h1>Store Inventory</h1>
             </header>
             <main className="App-main">
-                <InventoryList />
+                <Routes>
+                    <Route path="/" element={<InventoryList />} />
+                    <Route path="/product/:sku" element={<ProductDetail />} />
+                </Routes>
             </main>
             <footer className="App-footer">
-                <p>&copy; 2024 Santa's Grocer Village</p>
+                <p>&copy; 2024 Grocery Store Inventory</p>
             </footer>
         </div>
     );
