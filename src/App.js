@@ -9,10 +9,10 @@ const App = () => {
                 <img src={logo} className="App-logo" alt="Store logo" />
                 <h1>Store Inventory Manager</h1>
             </header>
-            <main>
+            <main className="App-main">
                 <InventoryList />
             </main>
-            <footer>
+            <footer className="App-footer">
                 <p>&copy; 2024 Santa's Grocer Village</p>
             </footer>
         </div>
