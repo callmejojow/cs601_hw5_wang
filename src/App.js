@@ -1,9 +1,17 @@
-import React from 'react';
+import InventoryList from './components/InventoryList';
 
 const App = () => {
     return (
         <div className="App">
-            <h1>Inventory Management</h1>
+            <header>
+                <h1>Store Inventory</h1>
+            </header>
+            <main>
+                <InventoryList />
+            </main>
+            <footer>
+                <p>&copy; 2024 Grocery Store Inventory</p>
+            </footer>
         </div>
     );
 };

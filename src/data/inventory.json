@@ -1,0 +1,12 @@
+[
+    { "sku": "001", "name": "Milk", "qty": 20, "price": 2.99 },
+    { "sku": "002", "name": "Bread", "qty": 15, "price": 1.99 },
+    { "sku": "003", "name": "Eggs", "qty": 30, "price": 3.49 },
+    { "sku": "004", "name": "Cheese", "qty": 10, "price": 4.99 },
+    { "sku": "005", "name": "Butter", "qty": 25, "price": 2.49 },
+    { "sku": "006", "name": "Apple", "qty": 30, "price": 1.75 },
+    { "sku": "007", "name": "Orange", "qty": 20, "price": 1.25 },
+    { "sku": "008", "name": "Tomato", "qty": 15, "price": 1.15 },
+    { "sku": "009", "name": "Lettuce", "qty": 18, "price": 2.50 },
+    { "sku": "010", "name": "Cheese", "qty": 100, "price": 3.35 }
+]

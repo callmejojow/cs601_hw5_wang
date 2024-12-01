@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.inventory-item {
+  border: 1px solid #ddd;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 5px;
+}
