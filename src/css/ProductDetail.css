@@ -2,9 +2,6 @@
     max-width: 800px;
     margin: 2rem auto;
     padding: 2rem;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .product-detail h2 {
@@ -37,4 +34,20 @@
     max-width: 300px;
     height: auto;
     margin-bottom: 2rem;
+}
+
+.back-button {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #96aca3;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #73877f;
 }

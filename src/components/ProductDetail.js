@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams,Link } from 'react-router-dom';
 import inventoryData from '../data/inventory.json';
 import '../css/ProductDetail.css';
 
@@ -24,6 +24,8 @@ const ProductDetail = () => {
             <p>Quantity Available: {product.qty}</p>
             <p>Price: ${product.price.toFixed(2)}</p>
             <p>Description: {product.description}</p>
+
+            <Link to="/" className="back-button">← Back to Home</Link>
         </div>
     );
 };
