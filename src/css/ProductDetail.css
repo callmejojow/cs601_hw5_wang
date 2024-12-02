@@ -32,3 +32,9 @@
         padding: 1rem;
     }
 }
+
+.product-detail-image {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 2rem;
+}

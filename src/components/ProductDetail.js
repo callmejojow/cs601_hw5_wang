@@ -10,8 +10,15 @@ const ProductDetail = () => {
         return <h2>Product Not Found</h2>;
     }
 
+    const imagePath = require(`../assets/${product.image}`);
+
     return (
         <div className="product-detail">
+            <img 
+                src={imagePath} 
+                alt={product.name}
+                className="product-detail-image"
+            />
             <h2>{product.name}</h2>
             <p>SKU: {product.sku}</p>
             <p>Quantity Available: {product.qty}</p>
