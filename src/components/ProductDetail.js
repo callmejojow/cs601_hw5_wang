@@ -16,7 +16,7 @@ const ProductDetail = () => {
             <p>SKU: {product.sku}</p>
             <p>Quantity Available: {product.qty}</p>
             <p>Price: ${product.price.toFixed(2)}</p>
-            <p>Description: A great item for your grocery needs!</p> {/* Placeholder for now */}
+            <p>Description: {product.description}</p>
         </div>
     );
 };
