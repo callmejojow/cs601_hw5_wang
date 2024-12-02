@@ -37,21 +37,16 @@ To install and run the application locally, follow these steps:
 - **Dynamic Image Handling**: Each product detail view includes an image that is dynamically loaded based on the product's SKU.
 
 ## 🌟 ABOVE & BEYOND
-- Implemented **loading states** in the `ProductDetail` component to enhance the user experience while fetching product data.
-- Created a **404 Not Found page** to handle undefined routes gracefully.
-- Added **hover effects** and **interactive UI elements** for a better user experience, such as hovering on inventory items to show a subtle shadow.
+- **Placeholder Image Handling**: Implemented a placeholder image in `ProductDetail` to handle cases where the product image is missing【123†source】.
+- **Extended Inventory Data**: Added `image` and `description` fields to the `inventory.json` data to enrich the product information.
+- **Completed Product Detail Page**: Implemented the entire product detail page, including a **back to home** link, which was originally part of the requirements for Assignment 6.
+- Added **hover effects** and **interactive UI elements** for a better user experience, such as hovering on inventory items to show a subtle transition of color.
 
 ## 📞 SUPPORT
 Jolie Wang - jwjolie@bu.edu
 
 ## 💡 LEARNINGS & CHALLENGES
 > Working with React Router was an insightful experience, particularly in understanding how to pass parameters like SKU for dynamic routing. I initially had challenges with dynamically loading images, but I solved this by ensuring the correct paths and adding error handling for missing assets.
-
-> I also explored ways to improve **accessibility** by adding ARIA labels to clickable elements and ensuring all interactive items were keyboard accessible.
-
-> Responsive design using CSS Grid and media queries was challenging at first, especially ensuring consistent layout across mobile devices. I resolved this by refining the grid settings for different breakpoints.
-
 ## 🌟 FUTURE IMPROVEMENTS
 > Implement a **search or filter** functionality to allow users to easily find products in the inventory.
-
 > Add **pagination** for larger inventory lists to improve performance and user experience.
