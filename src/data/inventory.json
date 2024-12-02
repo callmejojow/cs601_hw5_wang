@@ -2,11 +2,11 @@
     { "sku": "001", "name": "Milk", "qty": 20, "price": 2.99, "description": "A good brand of milk, running short on stock" },
     { "sku": "002", "name": "Bread", "qty": 15, "price": 1.99, "description": "A good brand of bread, running short on stock" },
     { "sku": "003", "name": "Eggs", "qty": 30, "price": 3.49, "description": "A good brand of eggs, need to preserve with caution" },
-    { "sku": "004", "name": "Cheese", "qty": 10, "price": 4.99, "description": "A good brand of cheese, running short on stock" },
+    { "sku": "004", "name": "Cheddar Cheese", "qty": 10, "price": 4.99, "description": "A good brand of cheese, running short on stock" },
     { "sku": "005", "name": "Butter", "qty": 25, "price": 2.49, "description": "A good brand of butter, vendor is out of stock" },
     { "sku": "006", "name": "Apple", "qty": 30, "price": 1.75, "description": "A good brand of apple, running short on stock" },
     { "sku": "007", "name": "Orange", "qty": 20, "price": 1.25, "description": "A good brand of orange, vendor is out of stock due to weather" },
     { "sku": "008", "name": "Tomato", "qty": 15, "price": 1.15, "description": "A good brand of tomato, vendor is out of stock due to weather" },
     { "sku": "009", "name": "Lettuce", "qty": 18, "price": 2.50, "description": "A good brand of lettuce, running short on stock" },
-    { "sku": "010", "name": "Cheese", "qty": 100, "price": 3.35, "description": "A good brand of cheese, no need to stock up" }
+    { "sku": "010", "name": "Gouda Cheese", "qty": 100, "price": 3.35, "description": "A good brand of cheese, no need to stock up" }
 ]
