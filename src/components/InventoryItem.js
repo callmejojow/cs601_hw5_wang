@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../css/InventoryItem.css';
+import '../styles/InventoryItem.css';
 
 //For each item in the inventory, I create a link to the product detail page
 //Description and image are not included in the link
