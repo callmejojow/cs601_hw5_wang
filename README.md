@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Assignment 5: Inventory Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📝 ABOUT
+This project is for my Assignment 5 & 6 of CS601, where I created an Inventory Management Application using React. The application allows users to view a list of inventory items and see detailed information about each product. The app includes responsive design, dynamic routing, and detailed product pages with images.
 
-## Available Scripts
+## 🚀 INSTALLATION
+To install and run the application locally, follow these steps:
 
-In the project directory, you can run:
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd cs601_hw5_wang
+   ```
 
-### `npm start`
+2. **Install Dependencies**:
+   Ensure you have Node.js installed. Then run:
+   ```bash
+   npm install
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Start the Application**:
+   ```bash
+   npm run start
+   ```
+   The app will be available at `http://localhost:3000`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 PROJECT STRUCTURE
+- **src/components**: Contains the main components, such as `InventoryList`, `InventoryItem`, and `ProductDetail`.
+- **src/data**: Stores the `inventory.json` file with sample inventory data.
+- **src/styles**: Modular CSS files for each component, ensuring organized styling.
 
-### `npm test`
+## 📚 FEATURES & IMPLEMENTATION DETAILS
+- **Inventory List View**: Displays all inventory items, each with a name, SKU, quantity, and price. The items are clickable and lead to a detailed product page.
+- **Product Detail View**: Shows detailed information about a selected product, including an image, SKU, quantity, price, and description. 
+- **Responsive Design**: The application adjusts gracefully to different screen sizes, ensuring a consistent experience on desktop, tablet, and mobile devices.
+- **React Router**: Used for client-side routing between the inventory list and product detail views.
+- **Dynamic Image Handling**: Each product detail view includes an image that is dynamically loaded based on the product's SKU.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌟 ABOVE & BEYOND
+- Implemented **loading states** in the `ProductDetail` component to enhance the user experience while fetching product data.
+- Created a **404 Not Found page** to handle undefined routes gracefully.
+- Added **hover effects** and **interactive UI elements** for a better user experience, such as hovering on inventory items to show a subtle shadow.
 
-### `npm run build`
+## 📞 SUPPORT
+Jolie Wang - jwjolie@bu.edu
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💡 LEARNINGS & CHALLENGES
+> Working with React Router was an insightful experience, particularly in understanding how to pass parameters like SKU for dynamic routing. I initially had challenges with dynamically loading images, but I solved this by ensuring the correct paths and adding error handling for missing assets.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> I also explored ways to improve **accessibility** by adding ARIA labels to clickable elements and ensuring all interactive items were keyboard accessible.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Responsive design using CSS Grid and media queries was challenging at first, especially ensuring consistent layout across mobile devices. I resolved this by refining the grid settings for different breakpoints.
 
-### `npm run eject`
+## 🌟 FUTURE IMPROVEMENTS
+> Implement a **search or filter** functionality to allow users to easily find products in the inventory.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Add **pagination** for larger inventory lists to improve performance and user experience.
